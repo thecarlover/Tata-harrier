@@ -1,0 +1,214 @@
+
+@import url("https://cars.tatamotors.com/fonts/fontfabric_-_unineueheavy-webfont.woff2");
+@import url("https://cars.tatamotors.com/fonts/altroz/fontfabric_-_unineueheavy-webfont.woff2");
+@import url("https://cars.tatamotors.com/fonts/altroz/fontfabric_-_unineueregular-webfont.woff2");
+@import url("https://cars.tatamotors.com/fonts/fontfabric_-_unineueregular-webfont.woff2");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "UnineueHeavy", sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+
+  width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: black;
+    height: 8.7vh;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items ul li{
+    padding: 0 2.6rem;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.soul {
+    position: relative; /* Make sure the container is positioned relatively */
+  }
+
+
+ .soul img{
+    width: 100px;
+    height: 44px;
+}
+
+
+.soul .overlay-text {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%; /* Adjust the top position to center the text vertically */
+    left: 50%; /* Adjust the left position to center the text horizontally */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: white; /* Set the text color */
+ 
+    padding: 10px; /* Add some padding for readability */
+    font-family: 'UnineueHeavy', sans-serif;
+   
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+
+
+.vc {
+    width: 97px;
+    height: 20px;
+    margin-left: 133px;
+
+}
+
+.nav2 {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.nav2 ul {
+    list-style: none;
+    padding: 0; /* Remove the padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 ul li {
+    padding: 5px;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 200;
+}
+
+.nav2 ul li a:hover {
+    color: #d4bb3c;
+}
+
+
+.hero img{
+    height: 487px;
+    width: 100%;
+}
+
+.hero2{
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+}
+
+.hero2 h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 5rem 0;
+    font-family: 'UnineueHeavy', sans-serif;
+    margin-left: 100px;
+    
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-top: -50px;
+}
+
+/* ... (previous CSS code) */
+
+.majestic {
+    display: flex;
+}
+
+.majestic img {
+    height: 443px;
+    width: 844px;
+    margin-top: 25px;
+}
+
+.m-container {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    height: auto;
+    width: 595px;
+    background-color: #1d1d1d;
+    margin-top: 25px;
+ 
+}
+
+.m-container h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0; /* Adjust the padding */
+    font-family: 'UnineueHeavy', sans-serif;
+    color: yellow;
+    margin-top: 50px;
+    font-style: italic;
+    margin-left: 45px;
+}
+
+.m-container p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 1rem 0; /* Adjust the padding */
+    font-family: 'UnineueHeavy', sans-serif;
+    color: white;
+    margin-left: 45px;
+    margin-top: -20px;
+    
+    
+}
+
+.m-container h4{
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 1rem 0; /* Adjust the padding */
+    font-family: 'UnineueHeavy', sans-serif;
+    color: white;
+    margin-left: 45px;
+    
+    
+}
+
+.m-container h5{
+    font-size: 1.9rem;
+    font-weight: 100;
+    padding: 1rem 0; /* Adjust the padding */
+    font-family: 'UnineueHeavy', sans-serif;
+    color: yellow;
+    margin-left: 45px;
+    margin-top: -30px;
+}
