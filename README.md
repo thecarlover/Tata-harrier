@@ -2,7 +2,7 @@
 
 Welcome to the repository for the Tata Harrier Car Website! This repository contains the code and assets for a website dedicated to showcasing the features, specifications, and experiences related to the Tata Harrier car.
 
-<img width="200" alt="logo" src="https://www.tatamotors.com/wp-content/themes/tatamotors_2019/images/tata_motors_logo.png">
+<img width="200" alt="logo" src="https://cars.tatamotors.com/images/tata-logo.png">
 
 ## About Tata Harrier
 
